@@ -1,8 +1,27 @@
 aid: zeitview
 name: Zeitview
-description: Zeitview is a company surfaced as a portfolio company of union-square-ventures, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Zeitview (formerly DroneBase) is an AI-powered aerial inspection and asset
+  intelligence platform. It combines a managed network of drone and aircraft
+  pilots with computer-vision analytics and lifecycle asset-management software
+  to deliver inspection imagery, condition assessments, and actionable
+  intelligence for wind energy, solar, utilities, oil & gas, construction,
+  commercial real estate, and property management. As of this profile the
+  company operates a customer web platform, support center, and blog but does
+  not publish a public developer API, developer portal, or SDK; data access is
+  arranged through direct customer engagement.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.squarespace-cdn.com/content/v1/6229b8a65380461f8a76c246/a92c0f37-863d-4bb5-b14a-b0623634a61d/zeitview-logo-Color-black.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/zeitview/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Drones
+- Aerial Imagery
+- Inspection
+- Asset Intelligence
+- Computer Vision
+- Renewable Energy
+- Geospatial
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zeitview-domain-security.yml
 - type: Website
   url: https://www.zeitview.com
+- type: Blog
+  url: https://blog.zeitview.com
+- type: Support
+  url: https://support.zeitview.com/customer-support/s/contactsupport
+- type: TermsOfService
+  url: https://www.zeitview.com/termsofuse
+- type: PrivacyPolicy
+  url: https://www.zeitview.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
