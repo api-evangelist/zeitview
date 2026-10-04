@@ -50,7 +50,7 @@ tags:
 - Aerial Imagery
 - Inspection
 - Asset Intelligence
-- Computer-Vision
+- Computer Vision
 - Renewable Energy
 - Geospatial
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Computer Vision
 - Renewable Energy
 - Geospatial
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
