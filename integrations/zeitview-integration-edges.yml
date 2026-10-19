@@ -1,0 +1,24 @@
+edges:
+- partner_name: Bentley Systems (own)
+  partner: bentley-systems
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.bentley.com/en/ecosystem-catalog/catalog/?listing=23154
+  mirror_of: bentley-systems/integrations/bentley-systems-integration-edges.yml
+  apps:
+  - Zeitview
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: Applications and Plug-ins
+generated: '2026-10-19'
+method: searched
+source:
+- https://www.bentley.com/en/ecosystem-catalog/catalog/
+checked:
+- https://www.bentley.com/en/ecosystem-catalog/catalog/
