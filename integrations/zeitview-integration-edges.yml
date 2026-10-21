@@ -16,9 +16,43 @@ edges:
   detected: '2026-10-19'
   detected_by: mirror-platform-listings.py
   category: Applications and Plug-ins
+- partner_name: Y Combinator
+  partner: y-combinator
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.ycombinator.com/companies/zeitview
+  category: accelerator portfolio participation
+  contract_reference:
+    register: Y Combinator company directory (ycombinator.com/companies/<slug>)
+    standard: null
+    spec_file: null
+    role: accelerator-portfolio-company
+    registered_name: Zeitview
+    register_id: https://www.ycombinator.com/companies/zeitview
+    register_country: US
+    register_website: https://www.zeitview.com/
+    matched_domain: zeitview.com
+    matched_by: domain
+    signal_note: 'participation only: the accelerator''s own portfolio register lists the company (cohort / investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-accelerator-portfolios.py
+    detected: '2026-10-21'
+    batch: Winter 2015
+    year: '2014'
+    status: Active
+  detected_by: sweep-accelerator-portfolios.py
+  first_seen: '2026-10-21'
 generated: '2026-10-19'
 method: searched
 source:
 - https://www.bentley.com/en/ecosystem-catalog/catalog/
 checked:
 - https://www.bentley.com/en/ecosystem-catalog/catalog/
+- https://500.co/api/startups
+- https://500.co/companies
+- https://www.antler.co/portfolio
+- https://www.techstars.com/portfolio
+- https://www.ycombinator.com/companies
